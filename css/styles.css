@@ -357,6 +357,9 @@ img {
     width: 264px;
     height: 428px;
 }
+.section-svg {
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 /*========section four====*/
@@ -484,9 +487,5 @@ img {
 }
 
 .conteiner-team-svg {
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.main-page-footer .section-svg {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
