@@ -335,7 +335,7 @@ img {
     height: 40px;
     border-radius: 50%;
     background-color: #4d5ae5;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-team-ul .icon {
@@ -345,7 +345,7 @@ img {
 .container-team-svg:hover {
     background-color: #404bbf;
 }
-.container-team-svg:focus {
+.container-team-ul .container-team-svg:focus {
     background-color: #404bbf;
 }
 
@@ -486,6 +486,6 @@ img {
     margin-right: 120px;
 }
 
-.conteiner-team-svg {
+.icon-footer {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
