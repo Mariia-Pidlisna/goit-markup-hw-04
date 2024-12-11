@@ -476,9 +476,8 @@ img {
     gap: 16px;
 }
 
-.main-page-footer
-.container-team-svg:hover,
-.container-team-svg:focus {
+.icon-footer:hover,
+.icon-footer:focus {
     background-color: #31d0aa;
 }
 
